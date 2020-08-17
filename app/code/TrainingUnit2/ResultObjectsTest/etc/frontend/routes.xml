@@ -7,8 +7,8 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="resultobjectstest" frontName="resultobjectstest">
-            <module name="TrainingUnit2_ResultsObjectsTest" />
+        <route id="resultobjectstest" frontName="resultobjectstestfront">
+            <module name="TrainingUnit2_ResultObjectsTest" />
         </route>
     </router>
 </config>
