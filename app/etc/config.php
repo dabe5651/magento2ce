@@ -267,8 +267,10 @@ return [
         'TrainingUnit1_Logger' => 1,
         'TrainingUnit1_MyCLI' => 1,
         'TrainingUnit1_MyObserver' => 1,
+        'TrainingUnit2_ResultObjects' => 0,
         'TrainingUnit2_ResultObjectsTest' => 1,
         'TrainingUnit2_RouterWatch' => 1,
+        'TrainingUnit3_BlockExercises' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidation' => 1,
         'Yotpo_Yotpo' => 1
