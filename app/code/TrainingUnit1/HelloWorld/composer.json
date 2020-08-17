@@ -1,0 +1,29 @@
+{
+    "name": "tainingunit1/module-helloworld",
+    "description": "N/A",
+    "require": {
+        "mageplaza/core-m2": "dev-master"
+    },
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Mageplaza",
+            "email": "hi@mageplaza.com",
+            "homepage": "https://www.mageplaza.com",
+            "role": "Leader"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mageplaza\\Seo\\": ""
+        }
+    }
+}

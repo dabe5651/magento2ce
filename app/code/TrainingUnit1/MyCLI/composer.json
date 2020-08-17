@@ -1,0 +1,14 @@
+{
+    "name": "vendor_name/MyCLI",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "dbernstein",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+    }
+}
