@@ -1,0 +1,10 @@
+<?php
+
+/** @var \Magento\Framework\View\Element\Template $block */
+
+/** @var \TrainingUnit3\LayoutEx\ViewModel\MyModel $viewModel */
+
+$viewModel = $block->getViewModel();
+?>
+<h2>hi</h2>
+<h1><?= $viewModel->getHelloView() ?></h1>
