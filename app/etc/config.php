@@ -272,6 +272,12 @@ return [
         'TrainingUnit2_RouterWatch' => 1,
         'TrainingUnit3_BlockExercises' => 1,
         'TrainingUnit3_LayoutEx' => 1,
+        'TrainingUnit4_CustomAttribute' => 1,
+        'TrainingUnit4_DatabaseEx' => 1,
+        'TrainingUnit4_DatabaseAdd' => 1,
+        'TrainingUnit4_ServiceContracts' => 1,
+        'TrainingUnit5_Admin' => 1,
+        'TrainingUnit6_LoyalCustomer' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidation' => 1,
         'Yotpo_Yotpo' => 1

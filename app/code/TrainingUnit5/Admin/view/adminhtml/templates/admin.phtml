@@ -1,0 +1,19 @@
+<?php /** @var \Magento\Framework\View\Element\Template $block */
+/** @var \TrainingUnit5\Admin\ViewModel\TestField $testModel */
+/** @var \TrainingUnit5\Admin\ViewModel\Password $testModel */
+/** @var \TrainingUnit5\Admin\ViewModel\FileUpload $fileUploadModel */
+$testModel = $block->getData('testfield_model');
+$passwordModel = $block->getData('password_model');
+$fileUploadModel = $block->getData('fileupload_model');
+?>
+
+<h2>Test Field</h2>
+<strong>Value: </strong> <?= (string) $testModel->getTestField(); ?>
+
+<h2>Password Field</h2>
+<strong>Value: </strong> <?= (string) $passwordModel->getPassword(); ?>
+
+<h2>File Upload Field</h2>
+<?php foreach ($fileUploadModel->getAllFiles() as $filePath): ?>
+    <div><?= $filePath ?></div>
+<?php endforeach; ?>

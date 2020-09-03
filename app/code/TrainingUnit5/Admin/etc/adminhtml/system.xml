@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="general">
+            <group id="unit5" sortOrder="1" translate="label" showInDefault="1" showInStore="1" showInWebsite="1" type="text">
+                <label>Training</label>
+                <field id="test" sortOrder="10" translate="label comment" type="select" showInWebsite="1" showInStore="1" showInDefault="1" canRestore="1">
+                    <label>Test Field</label>
+                    <comment><![CDATA[This is a test field]]></comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+                <field id="password" sortOrder="20" translate="label" type="obscure" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>Password</label>
+                    <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+                </field>
+
+                <field id="file_upload" sortOrder="30" translate="label" type="file" showInDefault="1" showInStore="1" showInWebsite="1">
+                    <label>File Upload</label>
+                    <backend_model>Magento\Config\Model\Config\Backend\File</backend_model>
+                    <upload_dir config="system" scope_info="1">upload</upload_dir>
+                </field>
+             </group>
+        </section>
+    </system>
+</config>
